@@ -15,10 +15,10 @@ Please note that root access is required.
  ```
 ### Getting WifiHack
  ```
- git clone --depth 1 https://github.com/Gtajisan/farhanfi
+ git clone --depth 1 https://github.com/Gtajisan/wifihack3
  ```
  ```
- cd farhanfi
+ cd wifihack3
  ```
 ### Running
  ```
