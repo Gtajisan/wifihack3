@@ -4,7 +4,10 @@
 
 ## [Termux](https://termux.com/)
 Please note that root access is required.  
-
+### updates tool
+```
+(cd wifihack3 && git pull)
+```
 ### Manually
 **Installing requirements**
  ```
@@ -22,16 +25,16 @@ Please note that root access is required.
  ```
 ### Running
  ```
- sudo python farhanfi.py -i wlan0 -K
+ sudo python farhanfx.py -i wlan0 -K
  ```
 ### One line Command
  ```
- sudo python wifihack3/farhanfi.py -i wlan0 -K
+ sudo python wifihack3/farhanfx.py -i wlan0 -K
  ```
 
 # Usage
 ```
- farhan.py <arguments>
+ farhanfx.py <arguments>
  Required arguments:
      -i, --interface=<wlan0>  : Name of the interface to use
 
@@ -59,7 +62,7 @@ Please note that root access is required.
 ## Usage examples
 Start Pixie Dust attack on a specified BSSID:
  ```
- sudo python3 farhanfi.py -i wlan0 -b 00:90:4C:C1:AC:21 -K
+ sudo python3 farhanfx.py -i wlan0 -b 00:90:4C:C1:AC:21 -K
  ```
 Show avaliable networks and start Pixie Dust attack on a specified network:
  ```
@@ -67,11 +70,11 @@ Show avaliable networks and start Pixie Dust attack on a specified network:
  ```
 Launch online WPS bruteforce with the specified first half of the PIN:
  ```
- sudo python3 farhanfi.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
+ sudo python3 farhanfx.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
  ```
  Start WPS push button connection:s
  ```
- sudo python3 farhanfi.py -i wlan0 --pbc
+ sudo python3 farhanfx.py -i wlan0 --pbc
  ```
 ## Troubleshooting
 #### "RTNETLINK answers: Operation not possible due to RF-kill"
